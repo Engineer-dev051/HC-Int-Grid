@@ -43,11 +43,10 @@ body {
 }
 
 /* Меню встроено внутрь header */
-.menu ul {              /* x */
+.menu ul {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(4, 190px);
-  
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
   margin: 0;
   padding: 0;
@@ -98,7 +97,6 @@ body {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-content: space-between;
   gap: 220px;
 }
 
